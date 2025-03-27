@@ -4,17 +4,17 @@ import { useSlideshow } from "../../hooks/useSlideshow";
 
 
 const amenitiesImages = [
-    "7hotel.jpg",
-    "5-Star-room.png",
+   "8hote.webp", 
+   "7hotel.jpg",
     "13hotel.jpg",
     "12hotel.jpg",  
-    "8hote.webp",
+    
     "5star2.avif",
     "5star4.jpg",
 ];
 
 const amenitiesPool=[
-    "pool2.webp",
+    "pool.jpg",
     "spa.jpg",
     "gym.jpg",
     "privatebeach.avif",
@@ -30,7 +30,7 @@ function Amenities() {
     return (
         
         <div id="Amenities" className={amenitiesCSS.amenitiestotal}>
-            <h1>Amenities</h1>
+            <h1 className="section-heading">Amenities</h1>
             
             <div className={amenitiesCSS.display}>
                 <div className={amenitiesCSS.roomamenities}>

@@ -8,7 +8,7 @@ function About() {
                 <img src="Emerald Inn.webp" height="300px" width="300px" alt="Emerald Inn" />
             </div>
             <div>
-                <h1>About Us</h1>
+                <h1 >About Us</h1>
                 <p>
                     Welcome to Emerald Inn, where luxury meets comfort in the heart of the city. Our elegantly designed rooms, world-class amenities, and warm hospitality ensure a truly unforgettable stay.
 

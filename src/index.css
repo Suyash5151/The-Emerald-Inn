@@ -43,3 +43,11 @@ button:hover{
   gap: 40px;
 
 }
+
+.section-heading {
+  font-size: 40px !important; /* Set a consistent font size */
+  font-weight: bold !important; /* Make the text bold */
+  text-align: center !important; /* Center align the text */
+  margin-bottom: 20px !important; /* Add spacing below the heading */
+  font-family: 'Poppins', sans-serif !important; /* Use a consistent font */
+}

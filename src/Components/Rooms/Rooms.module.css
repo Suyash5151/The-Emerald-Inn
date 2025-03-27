@@ -6,6 +6,10 @@
     align-items: center; /* Center align the content */
 }
 
+.roomsdisplay h1{
+    font-size: 40px;;
+}
+
 .roomContainer {
     display: flex;
     flex-direction: row;

@@ -5,6 +5,11 @@
     align-items: center;
     padding: 20px;
     margin-top: 20px;
+    
+}
+
+.dining h1{
+    font-size: 40px;
 }
 
 .box {
