@@ -8,7 +8,9 @@ import Dining from "./Components/Dining/Dining";
 import Amenities from "./Components/Amenities/Amenities";
 import Footer from "./Components/Footer/Footer";
 import Booking from "./Components/Booking/Booking"; 
-import Rooms from "./Components/Rooms/Rooms"
+import Rooms from "./Components/Rooms/Rooms";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -26,7 +28,8 @@ function App() {
               <div id="Rooms"><Rooms /></div>
               <div id="Amenities"><Amenities /></div>
               <div id="dining"><Dining /></div>
-              
+              <Analytics/>
+              <SpeedInsights/>
               <Footer />
             </>
           }

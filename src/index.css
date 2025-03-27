@@ -16,7 +16,7 @@ button{
   width: 160px;
   border: 1px solid #fff;
   background-color: transparent;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400 ;
   transition: 1s;
   padding: 26px;
@@ -26,7 +26,7 @@ button{
   cursor:pointer;
   font-family: 'Playfair';
   
-  box-shadow: 2px 2px 3px rgb(210, 203, 203), inset 3px 3px 10px rgb(255, 255, 255);
+  /*box-shadow: 2px 2px 3px rgb(210, 203, 203), inset 3px 3px 10px rgb(255, 255, 255);*/
 
 }
 

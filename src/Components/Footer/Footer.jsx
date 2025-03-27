@@ -57,6 +57,7 @@ function Footer(){
         </div>
         <div className={footerCSS.socialMedia}>
             <h2>Visit Our Social Handles</h2>
+            <div className="social-icons">
             <a href="https://www.instagram.com/suyash5151" target="_blank" rel="noopener noreferrer">
                 <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
             </a>
@@ -72,6 +73,7 @@ function Footer(){
             <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
                 <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" />
             </a>
+            </div>
         </div>
     </div>
     )

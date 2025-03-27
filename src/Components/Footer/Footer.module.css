@@ -20,6 +20,13 @@
     margin: 0 10px;
 }
 
+.socialMedia{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 
 a {
     color: blue; 

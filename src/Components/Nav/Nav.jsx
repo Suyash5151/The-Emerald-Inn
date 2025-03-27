@@ -17,13 +17,13 @@ function Nav() {
             <ul className={showNav ? navCSS.showNav : ""}>
                 <li><HashLink smooth to="/#about">About Us</HashLink></li>
                 <li><HashLink smooth to="/#dest">Destinations</HashLink></li>
-                <li><a href="#">Rooms & Suites</a></li>
+                <li><HashLink smooth to="/#Rooms">Rooms & Suites</HashLink></li>
                 <li><HashLink smooth to="/#Amenities">Amenities</HashLink></li>
                 <li><HashLink smooth to="/#dining">Dining</HashLink></li>
             </ul>
             <div className={navCSS.Nav_btns}>
                 <button className={navCSS.book_now_btn} onClick={() => window.open("/booking", "_blank")}><b>Book Now</b></button>
-                <i className="bx bx-menu menuIcon" id={navCSS.bars} onClick={toggleNav}></i>
+                <i className={`bx bx-menu menuIcon ${navCSS.bars}`} onClick={toggleNav}></i>
             </div>
         </div>
     );

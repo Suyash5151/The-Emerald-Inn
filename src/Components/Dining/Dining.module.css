@@ -23,7 +23,8 @@
 
 .column img {
     padding-bottom: 5px;
-    width: 100%;
+    width: 95%; /* Slightly increase image size */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
     transition: 0.4s ease;
     z-index: 0;
@@ -42,7 +43,7 @@
 }
 
 .text {
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 20px; /* Increase font size */
+    line-height: 1.8; /* Adjust line height for better readability */
     margin-bottom: 10px;
 }
