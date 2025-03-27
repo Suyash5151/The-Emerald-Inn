@@ -1,0 +1,18 @@
+.bookingNav {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookingNav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.bookingNav a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

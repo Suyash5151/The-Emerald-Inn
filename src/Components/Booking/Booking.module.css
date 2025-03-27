@@ -1,0 +1,73 @@
+.bookingContainer {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .tag {
+    background: #d8b89b;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: default;
+  }
+  
+  .highlight {
+    background: #c2996d;
+    padding: 3px 6px;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .formContainer {
+    background-color: rgb(240, 234, 225);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .bookingForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .inputRow {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .submitBtn {
+    background: #a87c5e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submitBtn:hover {
+    background: #8c5e44;
+  }
+  

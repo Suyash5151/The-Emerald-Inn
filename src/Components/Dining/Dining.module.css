@@ -1,0 +1,48 @@
+.dining {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 32vw;
+    border-radius: 50%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.column img {
+    padding-bottom: 5px;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    z-index: 0;
+}
+
+.column img:hover {
+    scale: 1.5;
+    padding-bottom: 0px;
+    z-index: 100;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}

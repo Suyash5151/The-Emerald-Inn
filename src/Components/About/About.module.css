@@ -1,0 +1,14 @@
+.abttext{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    
+}
+.section {
+    padding: 90px 15% ; 
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+    
+}
+

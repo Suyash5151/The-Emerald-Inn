@@ -1,0 +1,48 @@
+.Pictures {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Pictures h1 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.capt {
+    position: relative;
+    width: 250px;
+    height: 300px; /* Set a fixed height for consistency */
+    transition: transform 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.capt img {
+    width: 100%;
+    height: 85%; /* Ensure all images take up the same height */
+    object-fit: cover; /* Crop and fit images uniformly */
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.capt:hover img {
+    transform: scale(1.05);
+}
+
+.caption {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: black;
+    
+}

@@ -1,0 +1,29 @@
+.roomsdisplay {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 15%;
+    gap: 40px;
+    align-items: center; /* Center align the content */
+}
+
+.roomContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Add spacing between elements */
+    gap: 20px; /* Add gap between text and image */
+    width: 100%; /* Make it responsive */
+    max-width: 1200px; /* Limit the maximum width */
+}
+
+.roomsdisplay img {
+    height: auto; /* Maintain aspect ratio */
+    width: 60%; /* Slightly increase the width */
+    object-fit: cover;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.roomContainer ul {
+    font-size: 18px; 
+    line-height: 1.8; 
+}
